@@ -1,0 +1,204 @@
+@import url('https://fonts.cdnfonts.com/css/samsung-sharp-sans');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+body{
+    
+    background-color:black;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 15px 20px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    
+}
+
+.nav:hover{
+    background-color:rgb(44, 41, 41);
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 300px;
+    
+}
+
+.search-box{
+    display: flex;
+    flex: 1;
+    margin: 0px 20px;
+}
+
+
+.search-box input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-box button{
+    background-color:rgb(75, 74, 74);
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px 20px;
+    color: wheat;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search-box button:hover{
+    background-color: #3C3D37;;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    /* font-size: 25px;
+    color: brown; */
+}
+
+.nav-icons a{
+    margin: 20px;
+}
+
+.nav-icons img{
+    width: 35px;
+    filter: invert();
+}
+
+.search-box{
+    display: flex;
+    flex: 1;
+    margin: 0px 20px;
+}
+
+
+.search-box input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.search-box button{
+    background-color:rgb(75, 74, 74);
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px 20px;
+    color: wheat;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search-box button:hover{
+    background-color: lightslategrey;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.nav-links a:hover{
+    text-decoration: underline;
+    /* font-size: 25px;
+    color: brown; */
+}
+
+.nav-icons a{
+    margin: 20px;
+}
+
+.nav-icons img{
+    width: 35px;
+    filter: invert();
+}
+
+
+
+.home img{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.hero-section{
+    padding-top: 125px;
+    margin: 0px 20px;
+}
+
+.hero-section img:hover{
+    border: 5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: rgb(202, 180, 180);
+    display:flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 0px 20px;
+    padding: 20px;
+}
+
+.foot-links{
+    margin: 20px;
+}
+
+.foot-links h4{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.foot-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.foot-links li{
+    margin-top: 10px;
+
+}
+
+.foot-links a{
+    text-decoration: none;
+    color:#075498;
+    font-weight: 500;
+}
+
+.footer-copyright{
+    text-align: center;
+    color: aliceblue;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
